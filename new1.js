@@ -28,5 +28,7 @@
 // console.log(object2.b);
 // // TypeError: Cannot assign to read only property 'b' of object '#<Object>'
 
-a = NaN;
-console.log(a);
+// a = NaN;
+// console.log(a);
+// // ReferenceError: a is not defined
+
