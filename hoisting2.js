@@ -1,3 +1,4 @@
+'use strict';
 // program to display value
 // console.log(b);
 // var b = 2;
@@ -6,3 +7,15 @@
 // var b;
 // console.log(b);
 // b = 2;
+
+var a = 4;
+
+function welcome() {
+  k = 'hello';
+  console.log(k); // hello
+  var k;
+  // ReferenceError: k is not defined
+}
+
+welcome(); // hello
+console.log(k);
