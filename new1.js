@@ -9,13 +9,12 @@
 // SyntaxError: Octal escape sequences are not allowed in strict mode
 
 // 3
-let personal = { firstname: 'Satyaki' };
+// let personal = { firstname: 'Satyaki' };
 // delete personal;
 // SyntaxError: Delete of an unqualified identifier in strict mode
-delete personal.firstname;
-// correct
-console.log(personal.firstname);
-
+// delete personal.firstname;
+// console.log(personal.firstname);
+// undefined
 //
 // b = 'hey';
 // console.log(b);
