@@ -9,7 +9,7 @@ if (a == b) {
 if (a === b) {
   console.log('a and b both are of same value and type..');
 } else {
-  console.log('a and b both are of different value and type or both..');
+  console.log('a and b both are of different value or type or both..');
 }
 
 if (b == c) {
@@ -20,7 +20,7 @@ if (b == c) {
 if (b === c) {
   console.log('b and c both are of same value and type..');
 } else {
-  console.log('b and c both are of different value and type or both..');
+  console.log('b and c both are of different value or type or both..');
 }
 
 if (a == c) {
@@ -31,5 +31,5 @@ if (a == c) {
 if (a === c) {
   console.log('a and c both are of same value and type..');
 } else {
-  console.log('a and c both are of different value and type or both..');
+  console.log('a and c both are of different value or type or both..');
 }
