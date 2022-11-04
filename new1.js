@@ -45,9 +45,9 @@
 // console.log(eval);
 // SyntaxError: Unexpected eval or arguments in strict mode
 
-// 10
+// 9
 
-// 11
+// 10
 // function help(param1, param1) {
 //   console.log('help');
 // }
