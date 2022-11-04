@@ -21,9 +21,12 @@
 // console.log(details);
 // // ReferenceError: details is not defined
 
-let object2 = {};
-Object.defineProperty(object2, 'b', { value: 29, writable: false });
-// assignment to a non-writable property
-object2.b = 9;
-console.log(object2.b);
-// TypeError: Cannot assign to read only property 'b' of object '#<Object>'
+// let object2 = {};
+// Object.defineProperty(object2, 'b', { value: 29, writable: false });
+// // assignment to a non-writable property
+// object2.b = 9;
+// console.log(object2.b);
+// // TypeError: Cannot assign to read only property 'b' of object '#<Object>'
+
+a = NaN;
+console.log(a);
