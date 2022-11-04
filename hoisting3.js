@@ -1,4 +1,4 @@
-welcome(); // hello
+home(); // hello
 console.log(k);
 
 home();
