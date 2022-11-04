@@ -45,8 +45,6 @@
 // console.log(eval);
 // SyntaxError: Unexpected eval or arguments in strict mode
 
-// 9
-
 // 10
 // function help(param1, param1) {
 //   console.log('help');
@@ -55,9 +53,10 @@
 // SyntaxError: Duplicate parameter name not allowed in this context
 
 // 12
-// let object = {};
+// let obj = {};
 // Object.preventExtensions(obj);
 // Assignment to a new property on a non-extensible object
-// object.newValue = 'new value';
-// console.log(object.newValue);
+// obj.newValue = 'new value';
+// console.log(obj.newValue);
 // ReferenceError: obj is not defined
+// TypeError: Cannot add property newValue, object is not extensible
