@@ -44,3 +44,20 @@
 // console.log(arguments);
 // console.log(eval);
 // SyntaxError: Unexpected eval or arguments in strict mode
+
+// 10
+
+// 11
+// function help(param1, param1) {
+//   console.log('help');
+// }
+// help();
+// SyntaxError: Duplicate parameter name not allowed in this context
+
+// 12
+// let object = {};
+// Object.preventExtensions(obj);
+// Assignment to a new property on a non-extensible object
+// object.newValue = 'new value';
+// console.log(object.newValue);
+// ReferenceError: obj is not defined
