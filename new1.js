@@ -1,6 +1,6 @@
 'use strict';
 
-//1
+// 1
 // let a = 074;
 // let b = '\056';
 // console.log(a);
@@ -8,13 +8,15 @@
 // console.log(b);
 // SyntaxError: Octal escape sequences are not allowed in strict mode
 
-// let personal = { firstname: 'Satyaki' };
+// 3
+let personal = { firstname: 'Satyaki' };
 // delete personal;
 // SyntaxError: Delete of an unqualified identifier in strict mode
-// delete personal.firstname;
+delete personal.firstname;
 // correct
-// console.log(personal);
-// **********************************************
+console.log(personal.firstname);
+
+//
 // b = 'hey';
 // console.log(b);
 // ReferenceError: b is not defined
