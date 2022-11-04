@@ -7,7 +7,7 @@
 // console.log(b);
 // b = 2;
 
-var a = 4;
+var a = 7;
 
 function welcome() {
   k = 'hello';
@@ -17,4 +17,4 @@ function welcome() {
 }
 
 welcome(); // hello
-console.log(k);
+console.log(k); // ReferenceError: k is not defined
