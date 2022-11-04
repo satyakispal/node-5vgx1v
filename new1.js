@@ -32,3 +32,8 @@
 // console.log(a);
 // // ReferenceError: a is not defined
 
+// let arguments = 'hey';
+// let eval = 47;
+// console.log(arguments);
+// console.log(eval);
+// // SyntaxError: Unexpected eval or arguments in strict mode
